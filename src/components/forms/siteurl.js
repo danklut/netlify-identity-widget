@@ -42,8 +42,7 @@ export default class SiteURLForm extends Component {
           </label>
         </div>
         <button type="submit" className="btn">
-          Set site's URL
-        </button>
+          Set site's "URL"
       </form>
     );
   }
