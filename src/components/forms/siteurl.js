@@ -33,7 +33,7 @@ export default class SiteURLForm extends Component {
               type="url"
               name="url"
               value={url}
-              placeholder="www.aomcLoudenterprise.com"
+              placeholder="www.aomcloudenterprise.com"
               autocapitalize="off"
               required
               oninput={this.handleInput}
