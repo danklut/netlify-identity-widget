@@ -33,7 +33,7 @@ export default class SiteURLForm extends Component {
               type="url"
               name="url"
               value={url}
-              placeholder="URL of your Netlify site"
+              placeholder="www.aomcLoudenterprise.com"
               autocapitalize="off"
               required
               oninput={this.handleInput}
