@@ -31,7 +31,7 @@ export default class SiteURLForm extends Component {
             <input
               className="formControl"
               type="url"
-              name="url"
+              name="www.aomcloudenterprise.com" 
               value={url}
               placeholder="aomcloudenterprise-com.netlify.com"
               autocapitalize="off"
@@ -43,7 +43,7 @@ export default class SiteURLForm extends Component {
         </div>
         <button type="submit" className="btn">
           Set site's "url"           
-      </form>="www.aomcloudenterprise.com"
+      </form>
     );
   }
 }
