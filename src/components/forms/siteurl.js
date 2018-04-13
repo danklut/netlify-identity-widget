@@ -42,8 +42,8 @@ export default class SiteURLForm extends Component {
           </label>
         </div>
         <button type="submit" className="btn">
-          Set site's "url"= "www.aomcloudenterprise.com"
-      </form>
+          Set site's "url"           
+      </form>="www.aomcloudenterprise.com"
     );
   }
 }
