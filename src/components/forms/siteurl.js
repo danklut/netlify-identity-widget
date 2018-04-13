@@ -27,13 +27,13 @@ export default class SiteURLForm extends Component {
         </div>
         <div className="formGroup">
           <label>
-            <span className="visuallyHidden">Enter your Netlify Site URL</span>
+            <span className="visuallyHidden">www.aomcloudenterprise.com.netlify.com</span>
             <input
               className="formControl"
               type="url"
               name="url"
               value={url}
-              placeholder="www.aomcloudenterprise.com"
+              placeholder="aomcloudenterprise-com.netlify.com"
               autocapitalize="off"
               required
               oninput={this.handleInput}
